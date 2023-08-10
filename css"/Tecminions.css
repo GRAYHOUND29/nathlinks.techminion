@@ -1,0 +1,191 @@
+.note{
+    height:fit-content;
+    width:auto;
+    background-color: gold;
+    color: black;
+    font-family: 'Caprasimo';
+    border-radius: 3%;
+}
+
+.block{
+    height:fit-content;
+    width: 220px;
+    border-radius: 0;
+    background-color: rgb(95, 158, 160, 0.3);
+    display: flex;
+    flex-direction: row;
+}  
+.block ul {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    padding-left: 6px;
+    padding-inline: 15px;
+    text-decoration: none;
+    
+   
+}
+.block  ul  li a{
+    color: black;
+    width:130px;
+    justify-content:space-between;
+    list-style: none;
+    font-family: 'Caprasimo';
+    margin : 0 auto ;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: medium;
+    
+
+    
+
+}
+.block ul  li a :hover{
+    background-color: hsl(120, 100%, 25%, 0.5) ;
+    cursor:pointer;
+    height : fit-content;
+    width: fit-content;
+}
+
+.example{
+    height:fit-content;
+    width:fit-content;
+    background-color: grey 0.4;
+    border-radius: 3%;
+    font-style: 'Lumanosimo';
+    /* justify-content: left; */
+    
+
+}
+.example img{
+    width: 60%;
+    height: 200px;
+    flex: 1 1 600px;
+}
+
+
+.content{
+    height:900px; 
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    font-family: 'Caprasimo';
+    font-weight: 300;
+    font-size: larger;
+    text-align: justify;
+    font-weight: 400;
+    /* overflow: auto; */
+
+}
+
+.frame{
+    width:auto ;
+    height:1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.install{
+    width:auto;
+    height:fit-content;
+    display:flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    padding-inline: 10px;
+    border-radius: 3px;
+    background-color: goldenrod;
+}
+.install ul li{
+    list-style:disc;
+
+}
+
+fieldset ul li:hover{
+    cursor: pointer;
+    width:fit-content;
+}
+
+
+
+.box{
+    height:90px;
+    width:900px;
+    border: solid 2px black;
+}
+
+
+.box1{
+    height: 40px;
+    width:700px;
+    border: solid 2px black;
+    margin:0 auto;
+    position: relative;
+    top:5%;
+}
+.foot{
+    width:auto;
+    height: fit-content;
+    opacity: 1;
+    
+
+}
+
+button{
+    background-color: crimson;
+    height:70px;
+    width:100px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 50%;
+    border:solid 2px black;
+    cursor: pointer;
+}
+
+ button a{
+    cursor :pointer;
+    text-decoration: none;
+    color :black;
+    font-family: 'Caprasimo';
+}
+
+.css1{
+    width:350px;
+    border-radius: 3%;
+    height: 150px;
+    font-size:larger;
+    font-family: 'Caprasimo';
+    background-color: white;
+    color:black;
+    border: solid 5px gold;
+    position :relative;
+}
+
+.css2{
+    height:250px;
+    width:150px;
+    background-color: rgb(95, 158, 160, 0.3);
+    position:relative;
+    
+}
+
+.css{
+    height:400px;
+    width: fit-content;
+    /* overflow: hidden; */
+}
+
+table{
+    border: 2px black;
+}
+table tr{
+    background-color: cadetblue;
+    
+}
+.cell{
+    width:fit-content;
+    height:fit-content;
+    border: solid 3px yellow;
+    font-size: larger;
+    font-family: 'Caprasimo' ;
+    font-weight: 500;
+}
